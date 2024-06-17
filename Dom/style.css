@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 1rem;
+  margin-top: 20rem;
+}
+
+
+.container .red{
+   background-color: red;
+   color:black;
+}
+.container .yellow{
+   background-color: yellow;
+   color: black;
+}
+.container .blue{
+   background-color: blue;
+   color: black;
+}
+.container .green{
+   background-color: green;
+   color: black;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2{
+     
+     text-align: center;
+}
