@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Wrapper styling */
+#wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guessField, .guessSubmit {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.guessField {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.guessSubmit {
+  background-color: #74ebd5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.guessSubmit:hover {
+  background-color: #acb6e5;
+}
+
+/* Result paragraphs styling */
+.resultParas {
+  text-align: center;
+}
+
+.resultParas p {
+  margin: 10px 0;
+}
+
+/* New Game link styling */
+.newGame {
+  display: inline-block;
+  background-color: #acb6e5;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.newGame:hover {
+  background-color: #74ebd5;
+}
